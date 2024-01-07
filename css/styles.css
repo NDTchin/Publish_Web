@@ -1,0 +1,170 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/backgroundjisoo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+}
+.container {
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 550px;
+    background: url('../images/backgroundjisoo.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+.container h2 {
+    font-family: Georgia, serif;
+}
+.container .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 80%;
+    background: transparent;
+    padding: 70px;
+    color: #ffffff ;
+}
+.content .logo {
+    font-size: 30px;
+}
+.text-social h2 {
+    font-size: 40px;
+    line-height: 1;
+}
+.text-social h2 span {
+    font-size: 25px;
+}
+.text-social p {
+    font-style: italic;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.social-icons a i {
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: .7s ease;
+}
+.social-icons a:hover i {
+    transform: scale(1.2);
+}
+.container .form-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 58%);
+    height: 100%;
+}
+.form-box .form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #000000;
+    backdrop-filter: blur(20px);
+}
+.form-box h2 {
+    font-size: 32px;
+    text-align: center;
+}
+.form-box .input-box {
+    position: relative;
+    margin: 30px 0;
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid #ffffff;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    padding-right: 28px;
+    background: transparent;
+}
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 19px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .7 ease;
+    transform: translateY(-50%);
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+.input-box .icon {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+.form-box .remember-forgot {
+    font-size: 15px;
+    font-weight: 500;
+    margin: -1px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input {
+    accent-color: #ffffff;
+    margin-right: 5px;
+}
+.remember-forgot a {
+    color: #000000;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    color: rgb(244, 65, 59);
+    text-decoration: underline;
+}
+.btn {
+    width: 100%;
+    height: 45px;
+    background: hwb(340 22% 76%);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.form-box .login-register {
+    font-size: 14.5px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+}
+.login-register p a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.login-register p a:hover {
+    color: rgb(244, 65, 59);
+    text-decoration: underline;
+}
