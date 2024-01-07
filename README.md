@@ -1,2 +1,1 @@
-Publish_Web from _ndtCHin:
-Page ChinFashion: https://ndtchin.github.io/Publish_Web/
+Publish_Web from _ndtCHin: CHINFASHION: https://ndtchin.github.io/Publish_Web/
